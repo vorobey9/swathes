@@ -499,7 +499,7 @@ display: block;
 }
 
 .watch-advantage .watch-grid .watch-block{
-	padding:180px 20px 200px 20px;
+	padding:200px 20px 200px 20px;
 	border-right: 1px solid #080808;
 	cursor: pointer;
 	transition: .3s all linear;
@@ -511,6 +511,7 @@ background: rgba(0,0,0,.6);
 }
 .watch-advantage .watch-grid .watch-block:hover .preview {
 	display: block!important;
+	margin-top: 15px;
 }
 
 .watch-advantage .watch-grid .watch-block:last-child{
@@ -521,11 +522,15 @@ background: rgba(0,0,0,.6);
 	border: 1px solid #f4f4f4;
 	border-radius: 50px;
 	padding: 1px 10px;
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	display: block;
 	font-size: 2em;
-	margin: 30px auto;
+	margin: 15px auto;
+}
+
+.watch-block h3, .watch-block .preview{
+	text-align: left;
 }
 
 .intro h3 {
@@ -581,7 +586,7 @@ background: rgba(0,0,0,.6);
 	height: 100%;
 }
 .product .overlay {
-	background: rgba(43, 43, 43, 0.9);
+	background: rgba(0, 0, 0, 0.4);
 	height: 100%;
 	left: 0;
 	opacity: 0;
@@ -612,6 +617,8 @@ background: rgba(0,0,0,.6);
 	-o-transition: all, 0.5s;
 	-webkit-transition: all, 0.5s;
 	transition: all, 0.5s;
+
+	padding: 33px;/*Andrey*/
 }
 .product h5, .product p {
 	color: #fff;
@@ -651,6 +658,9 @@ background: rgba(0,0,0,.6);
 	transform: translate3d(0, 0, 0);
 }
 
+.mainProduct {
+	padding: 25px 0!important;
+}
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
