@@ -750,7 +750,7 @@ background: rgba(0,0,0,.6);
 	Contact form
 -------------------------------------------------------------------------------*/
 .conForm {
-	text-align: center;
+	text-align: left;
 	color: #080808;
 }
 
@@ -758,11 +758,20 @@ background: rgba(0,0,0,.6);
 	font-size: 30px;
 	color: #080808;
 	margin: 20px 0;
-
+	text-align: center;
 }
-.conForm h3{
-	color: #080808;
 
+/*.conForm h3{*/
+	/*color: #080808;*/
+/*}*/
+
+.conForm h3{
+	font-size: 22px;
+	color: #4a4a4a;
+	font-weight: 400;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-align: left;
 }
 
 .conForm .choose-color {
@@ -771,8 +780,8 @@ background: rgba(0,0,0,.6);
 }
 
 .conForm .choose-color span{
-	width: 45px;
-	height: 45px;
+	width: 32px;
+	height: 32px;
 }
 .conForm input {
 	color: #797979;
@@ -834,6 +843,13 @@ padding:15px 30px 15px 30px;
 	font-weight: 700;
 }
 
+.formOfOrder {
+	margin-top: 30px;
+}
+
+.sendbutton {
+	margin: 5px 20%;
+}
 /* ------------------------------------------------------------------------------
 	 Footer
 -------------------------------------------------------------------------------*/
